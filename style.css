@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+
+section {
+    background-color: #EFF2F9;
+    height: 100vh;
+}
+
+.card {
+    width: 1170px;
+    height: 800px;
+    box-shadow: 20px 20px 40px 0 rgba(81, 91, 117, 0.25);
+    background: #fff;
+    padding: 60px 0 70px;
+}
+
+.product-image-block {
+    border-right: 2px solid rgba(20, 20, 20, 0.15);
+    width: 540px;
+}
+
+.preview {
+    width: 80px;
+    height: 80px;
+}
+
+.preview.selected {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.product-info-block {
+    padding: 0 60px;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: 0.01em;
+    color: rgba(20, 20, 20, 0.9);
+}
+
+.subtitle {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: rgba(20, 20, 20, 0.4);
+    margin-bottom: 60px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.01em;
+    color: rgba(20, 20, 20, 0.7);
+    margin-bottom: 65px;
+}
+
+.colors {
+    margin-bottom: 65px;
+}
+
+.title {
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: rgba(20, 20, 20, 0.4);
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25));
+}
+
+.blue {
+    background-color: #013C7D;
+}
+
+.green {
+    background-color: #63CBA7;
+}
+
+.red {
+    background-color: #D52F29;
+}
+
+.black {
+    background-color: #141414;
+}
+
+.yellow {
+    background-color: #F2C723;
+}
+
+li.selected {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px 0 rgba(81, 91, 117, 0.25);
+    padding: 7px;
+}
+
+.quantity {
+    width: 80px;
+
+    color: rgba(20, 20, 20, 0.80);
+
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+
+    border: none;
+    appearance: none;
+
+    background-image: url("./assets/images/quantity-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right 0 top 50%;
+}
+
+.price {
+    color: rgba(20, 20, 20, 0.80);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+}
+
+.btn {
+    width: 510px;
+    height: 70px;
+    background: #141414;
+
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+    margin-top: 85px;
+}
